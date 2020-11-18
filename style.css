@@ -71,7 +71,7 @@ li,a {
     color: whitesmoke;
 }
 a:hover{
-    color:greenyellow;
+    color:black;
 }
 a:active{
     color: darkgreen;
@@ -93,7 +93,8 @@ a:active{
 .donation{
     margin:  auto;
     float: right;
-    width: 200px;
+    width: 11.1em;
+    font-size: large;
 }
 
 .help{
@@ -103,17 +104,17 @@ a:active{
 }
 .donatenow{
     float: right;
-    width: 200px;
+    width: 11em;
     background: #FDCA40;
-    padding: 10px 20px;
+    padding: 10px 5px;
     border: none;
     color: white;
     font-size: 1em;
-    font-weight: 700;
+    font-weight: bold;
     text-transform: uppercase;
     display: block;
-    margin-right: -13em;
-    margin-top: 12em;;
+    margin-right: -11em;
+    margin-top: 11em;;
     border-radius:20px;
     -webkit-border-radius:20px;
     -moz-border-radius:20px;
@@ -130,21 +131,20 @@ a:active{
 .secmaxwidth{
     margin:auto;
     max-width: 1080px;
-    margin-top: 23.5em;
+    margin-top: 24.5em;
     overflow: hidden;
    
 }
 .secondContainer{
     
     margin:auto;
-    max-width: 800px;
-    height: 200px;
+    max-width: 44em;
+    max-height: 200px;
     color: rgb(24, 20, 20);
-    padding: 1em 2em;
-    background-color: lightgrey;
+    padding: 1.4em 1em;
+    background-color: rgba(199, 194, 194, 0.95);
     display: block;
     float:left;
-    padding-top: 25px;
     z-index: +1;
     box-shadow: 2px 4px 5px grey ;
     border-radius: 10px;
@@ -163,9 +163,9 @@ a:active{
  height: 8.5em;
  width: 100%;
  justify-content: space-evenly;
- margin-top: -4em;
 z-index: 1;
 font-size: 0.8em;
+
 }
 .covid, .edu, .employee{
     display:block;
@@ -178,16 +178,12 @@ font-size: 0.8em;
 }
 span{
     display: block;
-    padding: 20px;
+    padding: 1em;
     text-align: center;
     font-size: 1.6em;
 }
 
 .thirdContainer{
-    /* background: url("data\\Background\\homeback2.jpg ");
-   background-position: top;
-    background-size: cover; */
-  
     
    display: block;
    align-items: center;
@@ -205,7 +201,7 @@ margin: auto;
 }
 .thirdContainer h1{
     font-size: 1.7em;
-    padding-top: 3em;
+    padding-top: 1em;
     padding-bottom: 0.5em;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -225,10 +221,10 @@ margin: auto;
 }
 
 .flexthird{
-    margin-top: 50px;
+    margin-top: 2.8em;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 .founders{
     max-height: 21em;
@@ -241,8 +237,8 @@ margin: auto;
     -ms-border-radius: 7px;
     -o-border-radius: 7px;
 }
-.flexthird p{
-    margin-left: 20px;
+.thirdContainer p{
+    margin-left: auto;
    text-align: justify;
    text-indent: 1em;
    letter-spacing: 2px;
@@ -267,6 +263,7 @@ margin: auto;
 .first, .second, .third, .fourth, .fifth, .sixth{
     background-color: rgba(128, 128, 128, 0.1);
     word-spacing: 5px;
+    overflow: hidden;
    /* background-color: rgb(26, 99, 26); */
     width: 30%;
     display: block;
@@ -289,27 +286,32 @@ h2{
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-    justify-content: center;
+    justify-content: justify;
+    overflow: hidden;
 }
 .footer{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.footer .address, .contact, .social{
+ .address, .contact, .social{
 
 width : 30%;
 margin-top: 15px;
 margin-left: 10px;
 border-right: 1px solid grey;
-height: 10em;
+height: 12.5em;
+text-align: justify;
+padding: 0.1em;
+letter-spacing: 2px;
+
 }
 .social{
     border-right:none;
 
 }
 .footer h3{
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-align: left;
  
 }
@@ -317,7 +319,7 @@ height: 10em;
     color:grey;
     text-transform: uppercase;
 }
-h4 a:hover{
+.contact h4 a:hover, .social h4 a:hover{
     color:limegreen;
 }
 .social, .contact,.address, .addresswidth{
@@ -326,38 +328,32 @@ h4 a:hover{
 }
 .addresswidth{
     display: inline-block;
-    max-width: 300px;;
+    max-width: 300px;
+    line-height: 25px;
 }
 .ficon{
     width: 22px;
 }
+/* Mobile Styling */ 
 @media screen and (max-width:720px){
     *{
         font-size: 14px;
     }
-    .mob{
-        display: block;
-        width: 100%;
-        position: sticky;
-        top:0;
+    .donation{
+      font-size: small;
     }
     .top{
         margin-top: 0;
         align-items: flex-start;
         height: 100px;
     }
-    .logo{
-        height: 10em;
-    }
     .heading{
         font-size: medium;
+        color: black;
     }
-      .nav_links{
-          display:inline-block;
-      }
       .menu{
-        display:inline-block;
-         
+        display: flex;
+         flex-wrap: wrap;
           margin-top: 0px;
           margin-right: 50px;
       }

@@ -1,35 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,200&display=swap');
 *{
     box-sizing: border-box;
-    color: 000000;
+    color: whitesmoke;
     font-family: Comfortaa, Tahoma, sans-serif;
     font-size:18px;
     padding:0;
-    color: whitesmoke;
+   
 
 }
 body{
+  
     margin:0 ;
-    background: url("data\\Background\\grass1.jpg ");
-    background-position: top, center;
-    background-size: 1920px 650px;
+    background:  url("data\\Background\\grass1.jpg ");
+    background-position: center;
+    background-attachment: scroll, fixed;
+    background-size:  36.1em;
     color:whitesmoke;
-    background-repeat: repeat;
+    background-repeat:  repeat;
 }
 
 .top{
+    
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     max-width: 1920px;
     margin:auto;
-    margin-top:0px;
-    height: 5.2em;
+    margin-top: 1em;
+     /*height: 5.2em;
     position: sticky;
     top:0; 
- /*  background: url("data\\Background\\grass1.jpg "); */
-  overflow:hidden;
+    background: url("data\\Background\\grass1.jpg "); */
+    overflow:hidden;
   
 
 }
@@ -38,17 +42,18 @@ body{
     align-items: center; 
 }
 .logo{
-    height: 12em;
+    height: 5em;
     cursor: pointer;
 } 
 .heading{
     text-transform: uppercase;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     width: max-content;
-    color: whitesmoke;
+   
 }
 .menu{
+   
     margin-right: 50px;
     display: flex;
     width: 100%;
@@ -58,6 +63,7 @@ body{
     display: none;
 }
 li,a {
+    font-size: 14px;
     text-align: center;
     list-style-type: none;
     text-decoration: none;
@@ -65,42 +71,94 @@ li,a {
     color: whitesmoke;
 }
 a:hover{
-    color:greenyellow;
+    color:lightgrey;
 }
 a:active{
     color: darkgreen;
 }
 .maxwidth{
     max-width: 1080px;
-    margin: auto;
     align-items: center;
-}
+    margin: auto;
+    
+    }
 
 
-
+/* Common Footer Css */ 
 .footer{
-    position: relative;
-    bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.footer .address, .contact, .social{
+ .address, .contact, .social{
+
 width : 30%;
 margin-top: 15px;
 margin-left: 10px;
 border-right: 1px solid grey;
-height: 10em;
+height: 12.5em;
+text-align: justify;
+padding: 0.1em;
+letter-spacing: 2px;
+
 }
 .social{
     border-right:none;
 
 }
 .footer h3{
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-align: left;
  
 }
-h4 a:hover{
+.footer h3{
+    color:grey;
+    text-transform: uppercase;
+}
+.contact h4 a:hover, .social h4 a:hover{
     color:limegreen;
+}
+.social, .contact,.address, .addresswidth{
+    font-size: medium;
+    line-height: 15px;
+}
+.addresswidth{
+    display: inline-block;
+    max-width: 300px;
+    line-height: 25px;
+}
+.ficon{
+    width: 22px;
+}
+/* Mobile Styling */ 
+@media screen and (max-width:720px){
+    *{
+        font-size: 14px;
+    }
+    .donation{
+      font-size: small;
+    }
+    .top{
+        margin-top: 0;
+        align-items: flex-start;
+        height: 100px;
+    }
+    .heading{
+        font-size: medium;
+        color: black;
+    }
+      .menu{
+        display: flex;
+         flex-wrap: wrap;
+          margin-top: 0px;
+          margin-right: 50px;
+      }
+      .menu li{
+          display: block;
+          margin:10px;
+          margin-top:150;
+          padding: 5px 10px;
+          height: 60px;
+      }
+
 }
