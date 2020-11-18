@@ -238,7 +238,8 @@ margin: auto;
     -o-border-radius: 7px;
 }
 .thirdContainer p{
-    margin-left: auto;
+    margin: 1em;
+    align-self: center;
    text-align: justify;
    text-indent: 1em;
    letter-spacing: 2px;
@@ -265,7 +266,7 @@ margin: auto;
     word-spacing: 5px;
     overflow: hidden;
    /* background-color: rgb(26, 99, 26); */
-    width: 30%;
+    width: 31%;
     display: block;
     padding: 0.6em;
     text-align: justify;
@@ -286,7 +287,7 @@ h2{
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-    justify-content: justify;
+    justify-content: center;
     overflow: hidden;
 }
 .footer{
