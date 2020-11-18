@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    color: 000000;
+    font-family: Comfortaa, Tahoma, sans-serif;
+    font-size:18px;
+    padding:0;
+    color: whitesmoke;
+
+}
+body{
+    margin:0 ;
+    background: url("data\\Background\\grass1.jpg ");
+    background-position: top, center;
+    background-size: 1920px 650px;
+    color:whitesmoke;
+    background-repeat: repeat;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1920px;
+    margin:auto;
+    margin-top:0px;
+    height: 5.2em;
+    position: sticky;
+    top:0; 
+ /*  background: url("data\\Background\\grass1.jpg "); */
+  overflow:hidden;
+  
+
+}
+.header{
+    display: flex;
+    align-items: center; 
+}
+.logo{
+    height: 12em;
+    cursor: pointer;
+} 
+.heading{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    width: max-content;
+    color: whitesmoke;
+}
+.menu{
+    margin-right: 50px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.menu-btn{
+    display: none;
+}
+li,a {
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0 0.5em;
+    color: whitesmoke;
+}
+a:hover{
+    color:greenyellow;
+}
+a:active{
+    color: darkgreen;
+}
+.maxwidth{
+    max-width: 1080px;
+    margin: auto;
+    align-items: center;
+}
+
+
+
+.footer{
+    position: relative;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .address, .contact, .social{
+width : 30%;
+margin-top: 15px;
+margin-left: 10px;
+border-right: 1px solid grey;
+height: 10em;
+}
+.social{
+    border-right:none;
+
+}
+.footer h3{
+    font-size: 1.3em;
+    text-align: left;
+ 
+}
+h4 a:hover{
+    color:limegreen;
+}
