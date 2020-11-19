@@ -1,14 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,200&display=swap');
-*{
-    box-sizing: border-box;
-    color: 000000;
-    font-family: Comfortaa, Tahoma, sans-serif;
-    font-size:18px;
-    padding:0;
-   
 
-}
 body{
   
     margin:0 ;
@@ -20,62 +10,6 @@ body{
     background-repeat: no-repeat, repeat;
 }
 
-.top{
-    
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1920px;
-    margin:auto;
-    margin-top: 1em;
-     /*height: 5.2em;
-    position: sticky;
-    top:0; 
-    background: url("data\\Background\\grass1.jpg "); */
-    overflow:hidden;
-  
-
-}
-.header{
-    display: flex;
-    align-items: center; 
-}
-.logo{
-    height: 5em;
-    cursor: pointer;
-} 
-.heading{
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 1.5em;
-    width: max-content;
-   
-}
-.menu{
-   
-    margin-right: 50px;
-    display: flex;
-    width: 100%;
-    align-items: center;
-}
-.menu-btn{
-    display: none;
-}
-li,a {
-    font-size: 14px;
-    text-align: center;
-    list-style-type: none;
-    text-decoration: none;
-    padding: 0 0.5em;
-    color: whitesmoke;
-}
-a:hover{
-    color:black;
-}
-a:active{
-    color: darkgreen;
-}
 .home{
     background-color: darkgreen;
     padding:10px;
@@ -84,7 +18,7 @@ a:active{
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-}
+} 
 .helpContainer{
     max-width: 1080px;
     margin: auto;
@@ -129,11 +63,12 @@ a:active{
     background-color: orange;
 }
 .secmaxwidth{
+   
     margin:auto;
     max-width: 1080px;
     margin-top: 24.5em;
     overflow: hidden;
-   
+ 
 }
 .secondContainer{
     
@@ -290,80 +225,32 @@ h2{
     justify-content: center;
     overflow: hidden;
 }
-.footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
- .address, .contact, .social{
 
-width : 30%;
-margin-top: 15px;
-margin-left: 10px;
-border-right: 1px solid grey;
-height: 12.5em;
-text-align: justify;
-padding: 0.1em;
-letter-spacing: 2px;
-
-}
-.social{
-    border-right:none;
-
-}
-.footer h3{
-    font-size: 1.2em;
-    text-align: left;
- 
-}
-.footer h3{
-    color:grey;
-    text-transform: uppercase;
-}
-.contact h4 a:hover, .social h4 a:hover{
-    color:limegreen;
-}
-.social, .contact,.address, .addresswidth{
-    font-size: medium;
-    line-height: 15px;
-}
-.addresswidth{
-    display: inline-block;
-    max-width: 300px;
-    line-height: 25px;
-}
-.ficon{
-    width: 22px;
-}
 /* Mobile Styling */ 
 @media screen and (max-width:720px){
     *{
         font-size: 14px;
     }
+
     .donation{
-      font-size: small;
-    }
-    .top{
-        margin-top: 0;
-        align-items: flex-start;
-        height: 100px;
-    }
-    .heading{
-        font-size: medium;
-        color: black;
-    }
-      .menu{
-        display: flex;
-         flex-wrap: wrap;
-          margin-top: 0px;
-          margin-right: 50px;
+        font-size: small;
+        
       }
-      .menu li{
-          display: block;
-          margin:10px;
-          margin-top:150;
-          padding: 5px 10px;
-          height: 60px;
-      }
+    .donatenow{
+        top: 3.7em;
+        z-index: 3;
+    }
+    .helpContainer{
+        margin-top: 12em ;
+    }
+    .secmaxwidth{
+      clear: right;
+     
+    }
+    .secondContainer{
+     
+        margin-top: 5.2em;
+    }
 
 }
+
