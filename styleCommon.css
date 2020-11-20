@@ -37,6 +37,15 @@ body{
     
   
 } 
+.active{
+    background-color: darkgreen;
+    padding:10px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+} 
 .nav-toggle-label {
     display: none;
   }
@@ -75,7 +84,7 @@ li ,a {
     color: whitesmoke;
 }
 a:hover{
-    color:black;
+    color:grey;
 
     
 }
@@ -89,7 +98,7 @@ a:active{
     margin-top: 2em;
 }
 
-}
+
 .donatenow{
     float: right;
     width: 11em;
@@ -126,10 +135,12 @@ span{
 
 
 /* Footer Styling starts*/ 
+
 .footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin:1em auto;
 }
  .address, .contact, .social{
 
@@ -141,6 +152,7 @@ height: 12.5em;
 text-align: justify;
 padding: 0.1em;
 letter-spacing: 2px;
+
 
 }
 .social{

@@ -9,16 +9,10 @@ body{
     color:whitesmoke;
     background-repeat: no-repeat, repeat;
 }
+a:hover{
+    color: black;
+}
 
-.home{
-    background-color: darkgreen;
-    padding:10px;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-} 
 .helpContainer{
     max-width: 1080px;
     margin: auto;
@@ -75,7 +69,7 @@ body{
     margin:auto;
     max-width: 44em;
     max-height: 200px;
-    color: rgb(24, 20, 20);
+    
     padding: 1.4em 1em;
     background-color: rgba(199, 194, 194, 0.95);
     display: block;
@@ -87,7 +81,7 @@ body{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    
+    color: rgb(24, 20, 20);
   
 }
 
@@ -101,21 +95,30 @@ body{
 z-index: 1;
 font-size: 0.8em;
 
+
+
 }
 .covid, .edu, .employee{
     display:block;
     text-align: center;
     border-right: 1px solid grey;
     width: 33.3%;
+   
 }
 .employee{
     border-right: none;
+    
+}
+.covid h3, .edu h3, .employee h3{
+    color: rgb(24, 20, 20);
 }
 span{
     display: block;
     padding: 1em;
     text-align: center;
     font-size: 1.6em;
+    color: black;
+  
 }
 
 .thirdContainer{
