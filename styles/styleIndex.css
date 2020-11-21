@@ -2,7 +2,7 @@
 body{
   
     margin:0 ;
-    background: url("data\\Background\\HomePageBackground.jpg"), url("data\\Background\\grass1.jpg ");
+    background: url("../data/Background/HomePageBackground.jpg"), url("../data/Background/grass1.jpg");
     background-position: top, center;
     background-attachment: scroll, fixed;
     background-size: 106.6em 36.1em;
@@ -276,7 +276,7 @@ h2{
 
 
 /* Mobile Styling */ 
-@media screen and (max-width:720px){
+@media screen (min-width:360px) and (max-width:720px){
     *{
         font-size: 14px;
     }
