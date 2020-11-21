@@ -55,11 +55,11 @@ body{
     justify-content: space-between;
     align-items: center;
     max-width: 1660px;
-    
+ 
   }
-  
-  .logo {
+  #logo {
     margin-top: 1em;
+    margin-left: 8%;
   }
   
   nav {
@@ -237,7 +237,7 @@ letter-spacing: 2px;
         background: url("data\\icons\\menu.png");
         background-size: 42px;
         position: relative;
-       
+        transition: background 300ms ease-in-out 500ms;
       }
       
       nav {
@@ -301,7 +301,12 @@ letter-spacing: 2px;
       .nav-toggle-label span::after{
           background: url("data\\icons\\close.png");
           background-size: 42px;
-      }
+          transition: background 300ms ease-in-out 500ms;
+          -webkit-transition: background 300ms ease-in-out 500ms;
+          -moz-transition: background 300ms ease-in-out 500ms;
+          -ms-transition: background 300ms ease-in-out 500ms;
+          -o-transition: background 300ms ease-in-out 500ms;
+}
 
 }
 /*Tab style*/ 

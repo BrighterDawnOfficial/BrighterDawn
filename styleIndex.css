@@ -42,7 +42,7 @@ a:hover{
     text-transform: uppercase;
     display: block;
     margin-right: -11em;
-    margin-top: 11em;;
+    margin-top: 12em;;
     border-radius:20px;
     -webkit-border-radius:20px;
     -moz-border-radius:20px;
@@ -55,20 +55,25 @@ a:hover{
 }
 .donatenow:hover{
     background-color: orange;
+    transform: scale(1.07,1.04);
+    -webkit-transform: scale(1.07,1.04);
+    -moz-transform: scale(1.07,1.04);
+    -ms-transform: scale(1.07,1.04);
+    -o-transform: scale(1.07,1.04);
 }
 .secmaxwidth{
    
     margin:auto;
     max-width: 1080px;
     margin-top: 24.5em;
-    overflow: hidden;
+    overflow: vis;
  
 }
 .secondContainer{
     
     margin:auto;
-    max-width: 44em;
-    max-height: 200px;
+    max-width: 45em;
+    max-height: 250px;
     
     padding: 1.4em 1em;
     background-color: rgba(199, 194, 194, 0.95);
@@ -92,8 +97,7 @@ a:hover{
  height: 8.5em;
  width: 100%;
  justify-content: space-evenly;
-z-index: 1;
-font-size: 0.8em;
+ z-index: 1;
 
 
 
@@ -103,7 +107,6 @@ font-size: 0.8em;
     text-align: center;
     border-right: 1px solid grey;
     width: 33.3%;
-   
 }
 .employee{
     border-right: none;
@@ -163,7 +166,9 @@ margin: auto;
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
+ 
 }
+
 .founders{
     max-height: 21em;
     width:200px;
@@ -174,6 +179,20 @@ margin: auto;
     -moz-border-radius: 7px;
     -ms-border-radius: 7px;
     -o-border-radius: 7px;
+   
+}
+.founders:hover{
+  
+    transform: scale(1.4,1.04);
+    -webkit-transform: scale(1.4,1.04);
+    -moz-transform: scale(1.4,1.04);
+    -ms-transform: scale(1.4,1.04);
+    -o-transform: scale(1.4,1.04);
+    transition: transform 300ms ease-in-out;
+    -webkit-transition: transform 300ms ease-in-out;
+    -moz-transition: transform 300ms ease-in-out;
+    -ms-transition: transform 300ms ease-in-out;
+    -o-transition: transform 300ms ease-in-out;
 }
 .thirdContainer p{
     margin: 1em;
@@ -215,6 +234,7 @@ margin: auto;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
+    max-width: max-content;
 }
 h2{
     text-align: center;
@@ -226,8 +246,34 @@ h2{
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: center;
-    overflow: hidden;
+    overflow: visible;
 }
+.secondContainer:hover{
+    transform: scale(1.02,1.02);
+    -webkit-transform: scale(1.02,1.02);
+    -moz-transform: scale(1.02,1.02);
+    -ms-transform: scale(1.02,1.02);
+    -o-transform: scale(1.02,1.02);
+    transition: transform 350ms ease-in-out;
+    -webkit-transition: transform 350ms ease-in-out;
+    -moz-transition: transform 350ms ease-in-out;
+    -ms-transition: transform 350ms ease-in-out;
+    -o-transition: transform 350ms ease-in-out;
+}
+.thirdContainer p:hover, .first:hover, .second:hover, .third:hover, .fourth:hover, .fifth:hover, .sixth:hover  {
+    background-color: rgba(128, 128, 128, 0.3);
+    transform: scale(1.04,1.04);
+    -webkit-transform: scale(1.04,1.04);
+    -moz-transform: scale(1.04,1.04);
+    -ms-transform: scale(1.04,1.04);
+    -o-transform: scale(1.04,1.04);
+    transition: transform 300ms ease-in-out;
+    -webkit-transition: transform 300ms ease-in-out;
+    -moz-transition: transform 300ms ease-in-out;
+    -ms-transition: transform 300ms ease-in-out;
+    -o-transition: transform 300ms ease-in-out;
+}
+
 
 /* Mobile Styling */ 
 @media screen and (max-width:720px){
@@ -253,6 +299,9 @@ h2{
     .secondContainer{
      
         margin-top: 5.2em;
+    }
+    .first, .second, .third, .fourth, .fifth, .sixth{
+        width: 48%;
     }
 
 }

@@ -8,7 +8,7 @@
 
 }
 .container1{
-    margin: 10px 20px;
+    margin: 6em 20px;
     display: block;
 
 }
@@ -52,6 +52,7 @@ float: right;
     display: inline-block;
     margin:auto;
     margin-top: 3em;
+    
 }
 .flex{
     width: 100%;
@@ -62,10 +63,13 @@ float: right;
     justify-content: space-between;
     align-items: stretch;
     overflow: hidden;
+    max-height: max-content;
+   
 }
 .numbers{
     font-size: 1em;
     font-weight: bold;
+
 }
 
 .border{
@@ -76,11 +80,13 @@ float: right;
     border-radius: 10px;
     height: 100%;
     margin: auto 5px;
+  
 
 }
 .border h2{
 text-align: center;
 font-size: 1em;
+
 }
 
 .border p{
@@ -96,15 +102,16 @@ font-size: 1em;
     justify-content: space-between;
     align-items: stretch;
     align-self: center;
-
-    
+   
+   
 }
 .u-one, .helpstillneeded{
     text-align: justify;
     border: 1px solid rgba(255, 255, 255,0.5);
-    height:29em;
+    height:30em;
     width: 32%;
-    
+    padding-bottom: 2em;
+
 }
 .counterhelp, .counterResIndex{
     padding: 5px;
@@ -120,6 +127,20 @@ font-size: 1em;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+.counterhelp:hover,.counterResIndex:hover, .u-one:hover, .helpstillneeded:hover {
+    transform: scale(1.02, 1.02);
+    -webkit-transform: scale(1.02, 1.02);
+    -moz-transform: scale(1.02, 1.02);
+    -ms-transform: scale(1.02, 1.02);
+    -o-transform: scale(1.02, 1.02);
+    transition: transform 500ms;
+    -webkit-transition: transform 500ms;
+    -moz-transition: transform 500ms;
+    -ms-transition: transform 500ms;
+    -o-transition: transform 500ms;
+    -webkit-transform: scale(1.03, 1.03);
+    background: rgba(128, 128, 128, 0.6);
 }
 .counterResIndex{
     margin-left: 0.5em;
@@ -151,22 +172,26 @@ font-size: 1em;
     height: 30px;
     width: 80%;
     text-align: center;
+    font-size: 0.8em;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.6);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    
+
 }
 .u-one a:last-child{
     background: rgb(131, 177, 40);
+
 }
 .u-one a:hover{
 background: rgb(6, 163, 6);
 color:black;
 }
 .mainmaxwidth hr{
-    width: 50%;
+    width: 60%;
     margin: 2em auto;
 }
 .center{
@@ -178,12 +203,14 @@ center h1{
     font-size: 2em;
 }
 .volunteers p{
+    margin: auto;
     margin-top: 2em;
     max-width: 90%;
     text-align: justify;
     line-height: 25px;
     margin-bottom: 2em;
 }
+
 .volunteers a{
     display: flex;
     align-items: center;
@@ -239,15 +266,37 @@ footer hr{
 
 
 
- /* Mobile 
+ /* Mobile */
 @media screen and (max-width:720px){
 *{
-    font-size: 12px;
+    font-size: 14px;
 }
 .counterhelp h2, .counterResIndex h2{
     font-size: 0.9em;
 }
 .counterhelp h3, .counterResIndex h3{
  font-size: 0.7em;
+}
+.flex{
+    flex-wrap: wrap;
+    align-items: stretch;
+
+}
+.counterMargin, .center{
+    align-self: center;
+}
+.u-one, .helpstillneeded, .counter{
+    width: 48%;
+    margin: auto;
+    margin-top: 2em;
+}
+.u-one, .helpstillneeded{
+    height: 26em;
+}
+.counterhelp, .counterResIndex{
+height: 25em;
+}
+.words p{
+    font-size: 0.8em;
 }
 }
