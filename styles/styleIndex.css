@@ -2,7 +2,7 @@
 body{
   
     margin:0 ;
-    background: url("data\\Background\\HomePageBackground.jpg"), url("data\\Background\\grass1.jpg ");
+    background: url("../data/Background/HomePageBackground.jpg"), url("../data/Background/grass1.jpg");
     background-position: top, center;
     background-attachment: scroll, fixed;
     background-size: 106.6em 36.1em;
@@ -164,6 +164,7 @@ margin: auto;
 .flexthird{
     margin-top: 2.8em;
     display: flex;
+    justify-content: center;
     flex-wrap: nowrap;
  
 }

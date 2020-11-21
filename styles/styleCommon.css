@@ -12,7 +12,7 @@
 body{
   
     margin:0 ;
-    background: url("data\\Background\\grass1.jpg ");
+    background: url("../data/Background/grass1.jpg ");
     background-position:  center;
     background-attachment:  fixed;
     background-size:  36.1em;
@@ -234,7 +234,7 @@ letter-spacing: 2px;
       .nav-toggle-label span::before,
       .nav-toggle-label span::after {
         display: block;
-        background: url("data\\icons\\menu.png");
+        background: url("../data/icons/menu.png");
         background-size: 42px;
         position: relative;
         transition: background 300ms ease-in-out 500ms;
@@ -299,7 +299,7 @@ letter-spacing: 2px;
       .nav-toggle:checked ~ .nav-toggle-label span,
       .nav-toggle-label span::before,
       .nav-toggle-label span::after{
-          background: url("data\\icons\\close.png");
+          background: url("../data/icons/close.png");
           background-size: 42px;
           transition: background 300ms ease-in-out 500ms;
           -webkit-transition: background 300ms ease-in-out 500ms;
