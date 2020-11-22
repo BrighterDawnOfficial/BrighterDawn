@@ -81,11 +81,11 @@ a:hover{
     float:left;
     z-index: +1;
     box-shadow: 2px 4px 5px grey ;
-    border-radius: 10px;
+    /* border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    -o-border-radius: 10px; */
     color: rgb(24, 20, 20);
   
 }
@@ -149,7 +149,7 @@ margin: auto;
     border-bottom: 1px solid grey ;
 }
 .thirdContainer p{
-    background-color: rgba(128, 128, 128, 0.1);
+    /* background-color: rgba(128, 128, 128, 0.1);
     padding: 0.5em;
     border-bottom:  1px solid gray;
     border-right:  1px solid gray;
@@ -158,10 +158,11 @@ margin: auto;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    -o-border-radius: 10px; */
 }
 
 .flexthird{
+    height: 400px;
     margin-top: 2.8em;
     display: flex;
     justify-content: center;
@@ -170,9 +171,9 @@ margin: auto;
 }
 
 .founders{
-    max-height: 21em;
+    max-height: 98%;
     width:200px;
-    padding: auto 10px;
+    /* padding: auto 10px; */
     margin-right: 10px;
     border-radius: 7px;
     -webkit-border-radius: 7px;
@@ -181,18 +182,22 @@ margin: auto;
     -o-border-radius: 7px;
    
 }
+.flexthird_text{
+    min-height: 100%;
+    min-width: ; 
+}
 .founders:hover{
   
-    transform: scale(1.4,1.04);
-    -webkit-transform: scale(1.4,1.04);
-    -moz-transform: scale(1.4,1.04);
-    -ms-transform: scale(1.4,1.04);
-    -o-transform: scale(1.4,1.04);
-    transition: transform 300ms ease-in-out;
-    -webkit-transition: transform 300ms ease-in-out;
-    -moz-transition: transform 300ms ease-in-out;
-    -ms-transition: transform 300ms ease-in-out;
-    -o-transition: transform 300ms ease-in-out;
+    transform: scale(1.04,1.04);
+    -webkit-transform: scale(1.04,1.04);
+    -moz-transform: scale(1.04,1.04);
+    -ms-transform: scale(1.04,1.04);
+    -o-transform: scale(1.04,1.04);
+    transition: transform 150ms ease-in-out;
+    -webkit-transition: transform 150ms ease-in-out;
+    -moz-transition: transform 150ms ease-in-out;
+    -ms-transition: transform 150ms ease-in-out;
+    -o-transition: transform 150ms ease-in-out;
 }
 .thirdContainer p{
     margin: 1em;
@@ -228,12 +233,12 @@ margin: auto;
     padding: 0.6em;
     text-align: justify;
     margin: 4px;
-    border:1px solid grey ;
-    border-radius: 15px;
+    /* border:1px solid grey ; */
+    /* border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
-    -o-border-radius: 15px;
+    -o-border-radius: 15px; */
     max-width: max-content;
 }
 h2{
@@ -260,7 +265,7 @@ h2{
     -ms-transition: transform 350ms ease-in-out;
     -o-transition: transform 350ms ease-in-out;
 }
-.thirdContainer p:hover, .first:hover, .second:hover, .third:hover, .fourth:hover, .fifth:hover, .sixth:hover  {
+/* .thirdContainer p:hover, .first:hover, .second:hover, .third:hover, .fourth:hover, .fifth:hover, .sixth:hover  {
     background-color: rgba(128, 128, 128, 0.3);
     transform: scale(1.04,1.04);
     -webkit-transform: scale(1.04,1.04);
@@ -272,7 +277,7 @@ h2{
     -moz-transition: transform 300ms ease-in-out;
     -ms-transition: transform 300ms ease-in-out;
     -o-transition: transform 300ms ease-in-out;
-}
+} */
 
 
 /* Mobile Styling */ 
