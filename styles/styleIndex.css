@@ -211,6 +211,9 @@ h1{
     align-items: stretch;
     justify-content: center;
 }
+.forthContainer h2{
+    margin-bottom: 1em;
+}
 .first, .second, .third, .fourth, .fifth, .sixth{
    /*  background-color: rgba(128, 128, 128, 0.1);*/ 
     word-spacing: 5px;
@@ -319,23 +322,23 @@ h2{
     display: block;
 }
 .eventDate{
-   
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: gray; 
+    background: linear-gradient(to right, grey, white);
     height: 100%;
     float: left;
     width: 20%;
     font-size: 0.8em;
+
 }
-.eventDate h2{
-    color: whitesmoke;
-}
+
 .eventDetails{
+    padding: 0.5em 0;
     line-height: 1.5em;
     width: 78%;
     float: right;
+  
 }
 .eventHeading h2, .recentBlogs h2{
 text-align: left;
