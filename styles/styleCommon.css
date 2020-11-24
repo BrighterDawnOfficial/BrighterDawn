@@ -194,19 +194,11 @@ letter-spacing: 2px;
         font-size: 14px;
         margin: auto;
     }
-    .donation{
-      font-size: small;
-      
-    }
-    .donatenow{
-        top: 3.7em;
-        z-index: 3;
-    }
+ 
 
     #logo{
-   margin:auto;
-     height: 3.7em;
-     float: left;
+        margin-left: 4em;
+        height: 3.7em;
 
  }
     header {

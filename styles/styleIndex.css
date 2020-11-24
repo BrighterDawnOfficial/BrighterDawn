@@ -319,25 +319,29 @@ h2{
     display: block;
 }
 .eventDate{
+   
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: gray; 
     height: 100%;
     float: left;
-    width: 15%;
+    width: 20%;
     font-size: 0.8em;
 }
-
+.eventDate h2{
+    color: whitesmoke;
+}
 .eventDetails{
     line-height: 1.5em;
-    width: 83%;
+    width: 78%;
     float: right;
 }
 .eventHeading h2, .recentBlogs h2{
 text-align: left;
 width: 100%;
 margin-left: 0;
+
 }
 
 .recentBlogs{
@@ -430,15 +434,17 @@ input{
     }
 
     .donation{
-        font-size: small;
-        
+        font-size: small;    
       }
     .donatenow{
-        top: 3.7em;
+        margin-top: 9em;
+       font-size: small;
+        top: 4.2em;
         z-index: 3;
+        
     }
     .helpContainer{
-        margin-top: 3em ;
+        margin-top: 8em ;
     }
     .secmaxwidth{
       clear: right;
@@ -449,7 +455,8 @@ input{
         margin-top: 5.2em;
     }
     .first, .second, .third, .fourth, .fifth, .sixth{
-        width: 45%;
+        margin: 1em;
+        width: 40%;
     }
     .thirdContainer{
         width: 100%;
@@ -469,15 +476,19 @@ input{
     }
     .recentBlogs{
         flex-wrap: wrap;
+       width: 95%;
     }
     .blog1, .blog2, .blog3{
         width: 100%;
     }
     .commas{
-        margin-left: 1em;
+        width: 100%;
+        margin-left: em;
     }
     .blogDetails{
-        margin:0 1em 1em -1em ;
+        margin: -1em 1em 1em 0em ;
+        width: 95%;
+        text-align: justify;
     }
     .readMore{
     float: left;
