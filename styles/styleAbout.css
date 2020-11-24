@@ -1,4 +1,18 @@
+*{
+    color: black;
+}
 
+/* linear background link color*/ 
+header a, footer a{
+    color: black;
+}
+.active:hover{
+    color: white;
+}
+/* Linear background links color nds */
+body{
+     background: linear-gradient(to bottom right,yellow,white, white, rgb(240, 176, 58));*/
+}
 .mainmaxwidth{
     margin:auto;
     max-width: 1080px;
@@ -111,12 +125,14 @@ font-size: 1em;
     height:30em;
     width: 32%;
     padding-bottom: 2em;
+    background: #fafafa;
+   
 
 }
 .counterhelp, .counterResIndex{
     padding: 5px;
     border: 1px solid rgba(255, 255, 255,0.5);
-    background: rgba(128, 128, 128, 0.5);
+    background: #fafafa;
     height: 100%;
     width:100%;
     overflow: hidden;
@@ -127,6 +143,7 @@ font-size: 1em;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+   
 }
 .counterhelp:hover,.counterResIndex:hover, .u-one:hover, .helpstillneeded:hover {
     transform: scale(1.02, 1.02);
@@ -140,11 +157,20 @@ font-size: 1em;
     -ms-transition: transform 500ms;
     -o-transition: transform 500ms;
     -webkit-transform: scale(1.03, 1.03);
-    background: rgba(128, 128, 128, 0.6);
+    background:  rgba(131, 177, 40,0.8);
+    color: white !important;
+}
+.counterhelp:hover ,.counterResIndex:hover, .u-one:hover, .helpstillneeded:hover {
+    color: white;
 }
 .counterResIndex{
     margin-left: 0.5em;
+   
 }
+.u-one:hover p, .counterhelp:hover *, .counterResIndex:hover *, .helpstillneeded:hover *{
+    color: white;
+}
+
 .counterMargin{
    display: flex;
    justify-content: space-between;
@@ -179,6 +205,7 @@ font-size: 1em;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    color: rgb(218, 216, 216);
     
 
 }
@@ -188,7 +215,7 @@ font-size: 1em;
 }
 .u-one a:hover{
 background: rgb(6, 163, 6);
-color:black;
+color:white;
 }
 .mainmaxwidth hr{
     width: 60%;
@@ -212,6 +239,7 @@ center h1{
 }
 
 .volunteers a{
+    color: rgb(218, 216, 216);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -229,9 +257,9 @@ center h1{
 }
 .volunteers a:hover{
     background: rgb(6, 163, 6);
-    color:black;
+    color:white;
 }
-.f1, .f2, .f3{
+.f1, .f2, .f3,.f4, .f5, .f6{
     display: flex;
     justify-content: space-between;
     align-items: center;

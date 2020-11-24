@@ -8,24 +8,13 @@
 
 *{
     box-sizing: border-box;
-    color: white;
     font-family: Comfortaa, Tahoma, sans-serif;
     font-size:18px;
     padding:0;
+    color: black;
    
 
 }
-body{
-  
-    margin:0 ;
-    background: url("../data/Background/grass1.jpg ");
-    background-position:  center;
-    background-attachment:  fixed;
-    background-size:  36.1em;
-    color:whitesmoke;
-    background-repeat: repeat;
-}
-
 
 .nav-toggle{
     transform: scale(0);
@@ -36,13 +25,7 @@ body{
 }
 
 
-#logo{
-    margin-left: 10px;
-    margin-top: 10px;
-    height: 70px;
-    
-  
-} 
+
 .active{
     background-color: darkgreen;
     padding:10px;
@@ -60,12 +43,15 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1660px;
+    max-width: 80em;
+    margin: auto;
  
   }
   #logo {
+
+    height: 100px;
     margin-top: 1em;
-    margin-left: 8%;
+    margin-left:1em;
   }
   
   nav {
@@ -76,10 +62,11 @@ body{
   nav ul {
     display: flex;
     margin-top: 1em;
-    margin-right: 10px;
+    margin-right: 6px;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    width: max-content;
   }
 
 li ,a {
@@ -87,17 +74,17 @@ li ,a {
     text-align: center;
     list-style-type: none;
     text-decoration: none;
-    color: whitesmoke;
+    color: white;
 }
-a:hover{
-    color:grey;
+header a:hover{
 
+    color:black;
     
 }
 a:active{
     color: darkgreen;
 }
-
+/* 
 .helpContainer{
     max-width: 1080px;
     margin: auto;
@@ -131,7 +118,7 @@ a:active{
 .donatenow:hover{
     background-color: orange;
 }
-
+*/ 
 span{
     display: block;
     padding: 1em;
@@ -143,15 +130,19 @@ span{
 /* Footer Styling starts*/ 
 
 .footer{
+    
     display: flex;
     align-items: center;
     justify-content: center;
     margin:1em auto;
 }
+.footer a{
+    color: black;
+}
  .address, .contact, .social{
 
 width : 30%;
-margin-top: 15px;
+margin-top: 1em;
 margin-left: 10px;
 border-right: 1px solid grey;
 height: 12.5em;
@@ -173,6 +164,10 @@ letter-spacing: 2px;
 .footer h3{
     color:grey;
     text-transform: uppercase;
+    margin-bottom: 1em;
+}
+.footer h4{
+    margin: 1em auto 1em auto;
 }
 .contact h4 a:hover, .social h4 a:hover{
     color:limegreen;
@@ -197,6 +192,7 @@ letter-spacing: 2px;
 @media screen and (max-width:720px){
     *{
         font-size: 14px;
+        margin: auto;
     }
     .donation{
       font-size: small;
@@ -247,8 +243,9 @@ letter-spacing: 2px;
       }
       
       nav {
+          
         position: absolute;
-        text-align: left;
+        text-align: center;
         top: 100%;
         left: 0;
         background: rgba(0, 0, 0, 0.75);
@@ -264,8 +261,9 @@ letter-spacing: 2px;
       
       nav ul {
           display: block;
-        margin: 0;
-        padding: 0;
+        margin: auto;
+        padding: 5px
+        ;
         list-style: none;
         margin-top: 10px;
       }
