@@ -33,7 +33,7 @@ body{
 .donatenow{
     float: right;
     width: 11em;
-    background: #FDEA40;
+    background: rgb(253, 234, 64);
     padding: 10px 5px;
     border: none;
     color: rgb(77, 77, 77);
@@ -80,12 +80,12 @@ body{
     margin:auto 0.2em;
     max-width: 45em; 
     padding: 1.4em 1em;
-    background: #FDEA40;
+    background: rgba(199, 194, 194, 1);;
     /* rgba(199, 194, 194, 0.95); */ 
     display: block;
     float:left;
     z-index: +1;
-border: 2px solid white;
+    border: 2px solid white;
     color: rgb(24, 20, 20);
   
 }
@@ -104,7 +104,7 @@ border: 2px solid white;
 .covid, .edu, .employee{
     display:block;
     text-align: center;
-    border-right: 1px solid grey;
+    border-right: 1px solid rgb(104, 103, 103);
     width: 33.2%;
     font-size: 1em;
     padding: 0 0.2em;
@@ -453,8 +453,8 @@ input{
         font-size: 0.8em;
     }
     .first, .second, .third, .fourth, .fifth, .sixth{
-        margin: 1em 2.2em;
-        width: 35%;
+        margin: 1em 2em;
+        width: 37%;
     }
     .thirdContainer{
         width: 100%;
@@ -481,11 +481,10 @@ input{
     }
     .commas{
         width: 100%;
-        margin-left: em;
     }
     .blogDetails{
-        margin: -1em 1em 1em 0em ;
-        width: 95%;
+        margin: -1em 1em 1em 3em ;
+        width: 92%;
         text-align: justify;
     }
     .event1, .event2, .event3{
@@ -502,8 +501,8 @@ input{
     
     }
     .name, .phNumber, .email{
-margin: auto;
-     margin-top: 1em;
+        margin: auto;
+        margin-top: 1em;
         width: 100%;
     }
 
