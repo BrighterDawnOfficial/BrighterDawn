@@ -137,13 +137,10 @@ span{
    margin: auto;
    width:100%;
    overflow: hidden;
-    /* max-height: 700px;*/
-
 }
 
 
 h1{
-
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -180,7 +177,6 @@ h1{
 }
 
 .founders:hover{
-  
     transform: scale(1.04,1.04);
     -webkit-transform: scale(1.04,1.04);
     -moz-transform: scale(1.04,1.04);
@@ -298,7 +294,7 @@ h2{
     color:darkgrey;
 }
 .event1, .event2, .event3{
-    margin: 2em 0.2em;
+    margin: 2em 1.5em;
     width: 100%;
     display: block;
 }
