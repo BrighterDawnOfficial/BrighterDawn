@@ -80,7 +80,7 @@ body{
     margin:auto 0.2em;
     max-width: 45em; 
     padding: 1.4em 1em;
-    background: rgba(199, 194, 194, 1);;
+    background: rgb(200, 200, 200);;
     /* rgba(199, 194, 194, 0.95); */ 
     display: block;
     float:left;
@@ -103,23 +103,30 @@ body{
 }
 .covid, .edu, .employee{
     display:block;
-    text-align: center;
+    text-align: left;
     border-right: 1px solid rgb(104, 103, 103);
-    width: 33.2%;
-    font-size: 1em;
-    padding: 0 0.2em;
+    width: 33%;
+    padding: 0 0.7em;
  
 }
 .employee{
     border-right: none;
     
 }
+.covid p, .edu p, .employee p{
+    font-size: 1.1em;
+    margin:0;
+    text-align: left;
+}
+.covid p:last-child, .edu p:last-child, .employee p:last-child{
+    text-align: right;
+}
 
 span{
     display: block;
     padding: 1em;
     text-align: center;
-    font-size: 1.4em;
+    font-weight: bold;
     color: black;
   
 }
@@ -137,9 +144,9 @@ span{
 
 h1{
 
-    font-size: 1.7em;
+    font-size: 2em;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 3px;
     margin-top: 4em;
     clear: both;
 }
@@ -199,7 +206,7 @@ h1{
 
 text-decoration: underline;
 color: black;
-font-size: 1.2em;
+font-size: 1em;
 
 }
 .thirdContainer p a:hover{
@@ -216,17 +223,20 @@ font-size: 1.2em;
     margin-bottom: 1em;
 }
 .first, .second, .third, .fourth, .fifth, .sixth{
- 
     word-spacing: 5px;
     overflow: hidden;
-
     width: 25%;
     display: block;
-    padding: 0.6em;
+    padding: 0.8em;
     text-align: justify;
     margin: 1em 2em;
-
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
     max-width: max-content;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .oureffortsLink{
     color: white;
@@ -240,6 +250,7 @@ font-size: 1.2em;
     border-radius: 1px;
     box-shadow: 0px 2px 2px black;
     overflow: visible;
+    margin-top: 2em;
 }
 .oureffortsLink:hover{
     background-color: darkgray;
@@ -258,7 +269,7 @@ font-size: 1.2em;
 
 h2{
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.1em;
 
 }
 .fifthContainer{
@@ -287,7 +298,7 @@ h2{
     color:darkgrey;
 }
 .event1, .event2, .event3{
-    margin: 1em 0.2em;
+    margin: 2em 0.2em;
     width: 100%;
     display: block;
 }
@@ -327,10 +338,20 @@ margin-left: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .blog1, .blog2, .blog3{
+    padding: 1.5em;
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    max-width: max-content;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 width: 28%;
 margin: 2em  1.5em;
+
 
 }
 .commas{
@@ -372,12 +393,20 @@ input{
     -o-border-radius: 6px;
 }
 .name{
+    font-weight: bold;
     width: 60%;
 }
 .phNumber{
+   
+    font-weight: bold;
     width: 40%;
 }
+.phNumber input{
+    float: right;
+    width: 100%;
+}
 .email{
+    font-weight: bold;
     margin-top: 1em;
     width: 30%;
 }
@@ -438,6 +467,7 @@ input{
         padding-right: 1em;
     }
     .helpContainer{
+        padding-right: 1em;
         margin-top: 8em ;
     }
     .secmaxwidth{
@@ -470,6 +500,7 @@ input{
         width: 30%;
     }
     .flexthird p{
+        margin-top: 2em;
         width: 90%;
     }
     .recentBlogs{
@@ -505,7 +536,10 @@ input{
         margin-top: 1em;
         width: 100%;
     }
-
+    .phNumber input{
+        float: left;
+        width: 90%;
+    }
  
 
 @media screen and (max-width:400px){

@@ -59,6 +59,7 @@
       text-transform: uppercase;
       letter-spacing: 2px;
       font-size: xx-large;
+      font-weight: bold;
       width: max-content;
   }
   #logo {
@@ -89,7 +90,7 @@ li ,a {
     text-align: center;
     list-style-type: none;
     text-decoration: none;
-    color: rgb(173, 173, 173);
+    color: rgb(221, 221, 221);
 }
 header a:hover{
     
