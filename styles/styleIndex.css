@@ -33,7 +33,7 @@ body{
 .donatenow{
     float: right;
     width: 11em;
-    background: #FDCA40;
+    background: #FDEA40;
     padding: 10px 5px;
     border: none;
     color: rgb(77, 77, 77);
@@ -64,7 +64,6 @@ body{
 }
 .maxwidth{
     max-width: 1080px;
-    align-items: center;
     margin: auto;
     
     }
@@ -81,17 +80,12 @@ body{
     margin:auto 0.2em;
     max-width: 45em; 
     padding: 1.4em 1em;
-    background: linear-gradient(to bottom,rgb(179, 177, 177), white);
+    background: #FDEA40;
     /* rgba(199, 194, 194, 0.95); */ 
     display: block;
     float:left;
     z-index: +1;
-    /* box-shadow: 2px 4px 5px grey ; 
-   border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px; */
+border: 2px solid white;
     color: rgb(24, 20, 20);
   
 }
@@ -133,7 +127,6 @@ span{
 .thirdContainer{
     
    display: block;
-   align-items: center;
    margin: auto;
    width:100%;
    overflow: hidden;
@@ -141,15 +134,14 @@ span{
 
 }
 
+
 h1{
+
     font-size: 1.7em;
-    padding-top: 1em;
-    padding-bottom: 0.5em;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    border-bottom: 1px solid grey ;
-    margin-top: 3em;
- 
+    margin-top: 4em;
+    clear: both;
 }
 
 .flexthird{
@@ -171,8 +163,8 @@ h1{
 .founders{
     max-height: 60%;
     width:30%;
-    /*padding: auto 10px;
-    */margin: 5px;
+   
+    margin: 5px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -224,42 +216,33 @@ font-size: 1.2em;
     margin-bottom: 1em;
 }
 .first, .second, .third, .fourth, .fifth, .sixth{
-   /*  background-color: rgba(128, 128, 128, 0.1);*/ 
+ 
     word-spacing: 5px;
     overflow: hidden;
-   /* background-color: rgb(26, 99, 26); */
-    width: 31%;
+
+    width: 25%;
     display: block;
     padding: 0.6em;
     text-align: justify;
-    margin: 4px;
-  /*  border:1px solid rgba(128, 128, 128, 0.3); 
-     border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;  */
+    margin: 1em 2em;
+
     max-width: max-content;
 }
 .oureffortsLink{
     color: white;
     text-transform: uppercase;
     letter-spacing: 2px;
-    background-color: darkgreen;
+    background-color: #4F625E;
     display: block;
     margin: auto;
     padding: 0.6em;
     width: 50%;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    border-radius: 1px;
     box-shadow: 0px 2px 2px black;
     overflow: visible;
 }
 .oureffortsLink:hover{
-    background-color: limegreen;
+    background-color: darkgray;
     color: black;
     transform: scale(1, 1.1);
     -webkit-transform: scale(1, 1.1);
@@ -285,32 +268,6 @@ h2{
     justify-content: center;
     overflow: visible;
 }
-/*
-.secondContainer:hover{
-    transform: scale(1.02,1.02);
-    -webkit-transform: scale(1.02,1.02);
-    -moz-transform: scale(1.02,1.02);
-    -ms-transform: scale(1.02,1.02);
-    -o-transform: scale(1.02,1.02);
-    transition: transform 350ms ease-in-out;
-    -webkit-transition: transform 350ms ease-in-out;
-    -moz-transition: transform 350ms ease-in-out;
-    -ms-transition: transform 350ms ease-in-out;
-    -o-transition: transform 350ms ease-in-out;
-}
- .thirdContainer p:hover, .first:hover, .second:hover, .third:hover, .fourth:hover, .fifth:hover, .sixth:hover  {
-    background-color: rgba(128, 128, 128, 0.3);
-    transform: scale(1.04,1.04);
-    -webkit-transform: scale(1.04,1.04);
-    -moz-transform: scale(1.04,1.04);
-    -ms-transform: scale(1.04,1.04);
-    -o-transform: scale(1.04,1.04);
-    transition: transform 300ms ease-in-out;
-    -webkit-transition: transform 300ms ease-in-out;
-    -moz-transition: transform 300ms ease-in-out;
-    -ms-transition: transform 300ms ease-in-out;
-    -o-transition: transform 300ms ease-in-out;
-} */
 
 .ourReach img{
     margin: auto;
@@ -330,7 +287,7 @@ h2{
     color:darkgrey;
 }
 .event1, .event2, .event3{
-    margin: 0.6em 0.2em;
+    margin: 0.5em 0.2em;
     width: 100%;
     display: block;
 }
@@ -338,21 +295,16 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to right, grey, white);
+    background: darkgray;
     height: 100%;
     float: left;
     width: 20%;
-    font-size: 1.1em;
-    
-   /* border-radius: 10px 0 0 10px;
-    -webkit-border-radius: 10px 0 0 10px;
-    -moz-border-radius: 10px 0 0 10px;
-    -ms-border-radius: 10px 0 0 10px;
-    -o-border-radius: 10px 0 0 10px; */
+    margin-top: 1em;
+
 }
 
 .eventDetails{
-    padding: 0.5em 0;
+   
     line-height: 1.5em;
     width: 78%;
     float: right;
@@ -377,8 +329,8 @@ margin-left: 0;
     justify-content: space-between;
 }
 .blog1, .blog2, .blog3{
-width: 32%;
-margin: 0 0 0 1em;
+width: 28%;
+margin: 2em  1.5em;
 
 }
 .commas{
@@ -392,6 +344,7 @@ margin: 0 0 0 1em;
     width: 90%;
     float: right;
     margin-top: -3em;
+    margin-left: 0.5em;
 }
 .newsletter{
     max-width: 1000px;
@@ -500,8 +453,8 @@ input{
         font-size: 0.8em;
     }
     .first, .second, .third, .fourth, .fifth, .sixth{
-        margin: 1em;
-        width: 40%;
+        margin: 1em 2.2em;
+        width: 35%;
     }
     .thirdContainer{
         width: 100%;
@@ -534,6 +487,14 @@ input{
         margin: -1em 1em 1em 0em ;
         width: 95%;
         text-align: justify;
+    }
+    .event1, .event2, .event3{
+        margin-top: 1em;
+    }
+    .eventDate{
+        margin-top: 0;
+        font-size: smaller;
+      
     }
     .readMore{
     float: left;

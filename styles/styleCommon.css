@@ -26,7 +26,7 @@
 
 
 .active{
-    background-color: darkgreen;
+   color: white;
     padding:10px;
     border-radius: 7px;
     -webkit-border-radius: 7px;
@@ -46,9 +46,25 @@
     margin: auto;
  
   }
+  .logo{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: nowrap;
+      width: max-content;
+  }
+  .orgName{
+      padding-top: 0.5em;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: xx-large;
+      width: max-content;
+  }
   #logo {
 
-    height: 100px;
+    height: 150px;
+    
     margin-top: 1em;
     margin-left:1em;
   }
@@ -73,7 +89,7 @@ li ,a {
     text-align: center;
     list-style-type: none;
     text-decoration: none;
-    color: white;
+    color: rgb(173, 173, 173);
 }
 header a:hover{
     
