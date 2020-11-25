@@ -287,7 +287,7 @@ h2{
     color:darkgrey;
 }
 .event1, .event2, .event3{
-    margin: 0.5em 0.2em;
+    margin: 1em 0.2em;
     width: 100%;
     display: block;
 }
