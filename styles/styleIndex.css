@@ -219,7 +219,7 @@ font-size: 1em;
     margin-bottom: 1em;
 }
 .first, .second, .third, .fourth, .fifth, .sixth{
-    word-spacing: 5px;
+    word-spacing: 3px;
     overflow: hidden;
     width: 25%;
     display: block;
@@ -397,9 +397,14 @@ input{
     font-weight: bold;
     width: 40%;
 }
+input{
+    border: 1.5px solid black;
+    margin-top: 0.3em;
+}
 .phNumber input{
     float: right;
     width: 100%;
+    
 }
 .email{
     font-weight: bold;
@@ -479,8 +484,8 @@ input{
         font-size: 0.8em;
     }
     .first, .second, .third, .fourth, .fifth, .sixth{
-        margin: 1em 2em;
-        width: 37%;
+        margin: 1em 1.5em;
+        width: 35%;
     }
     .thirdContainer{
         width: 100%;
@@ -508,9 +513,10 @@ input{
     }
     .commas{
         width: 100%;
+        margin-left: -0.2em;
     }
     .blogDetails{
-        margin: -1em 1em 1em 3em ;
+        margin: 0em 1em 1em 2em ;
         width: 92%;
         text-align: justify;
     }
@@ -537,17 +543,18 @@ input{
         width: 90%;
     }
  
-
+}
 @media screen and (max-width:400px){
 *{
     margin: auto;
-    max-width: none;
+    max-width: 1000vw;
 }
 body{
-   
-    width: 200vw;
+    margin:auto;
+    width: 300%;
 }
 
 
 }
+
 }

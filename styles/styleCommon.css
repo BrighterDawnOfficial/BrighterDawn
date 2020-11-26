@@ -26,17 +26,13 @@
 
 
 .active{
-   color: white;
-    padding:10px;
-    border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px;
-} 
+    color: white;
+   text-transform: uppercase;
+}
 .nav-toggle-label {
     display: none;
   }
+
 
   header {
     display: flex;
@@ -46,6 +42,12 @@
     margin: auto;
  
   }
+  .top{
+    margin:-10px;
+    padding: 0;
+    height: 90px;
+    background: linear-gradient(to bottom, grey ,grey, white);
+}
   .logo{
       display: flex;
       justify-content: space-between;
@@ -55,7 +57,7 @@
   }
   .orgName{
       padding-top: 0.5em;
-      color: white;
+      color: black;
       text-transform: uppercase;
       letter-spacing: 2px;
       font-size: xx-large;
@@ -92,6 +94,10 @@ li ,a {
     text-decoration: none;
     color: rgb(221, 221, 221);
 }
+header a, footer a{
+    color: #000000;
+}
+
 header a:hover{
     
     color:black;
@@ -100,41 +106,7 @@ header a:hover{
 a:active{
     color: darkgreen;
 }
-/* 
-.helpContainer{
-    max-width: 1080px;
-    margin: auto;
-    margin-top: 2em;
-}
 
-
-.donatenow{
-    float: right;
-    width: 11em;
-    background: #FDCA40;
-    padding: 10px 5px;
-    border: none;
-    color: white;
-    font-size: 1em;
-    font-weight: bold;
-    text-transform: uppercase;
-    display: block;
-    margin-right: -11em;
-    margin-top: 11em;;
-    border-radius:20px;
-    -webkit-border-radius:20px;
-    -moz-border-radius:20px;
-    -ms-border-radius:20px;
-    -o-border-radius:20px;
-    transition-duration: 0.4s;
-    position: sticky;
-    top:5px;
-
-}
-.donatenow:hover{
-    background-color: orange;
-}
-*/ 
 span{
     display: block;
     padding: 1em;
@@ -142,7 +114,10 @@ span{
     font-size: 1.6em;
 }
 
-
+.maxwidth{
+    max-width: 1080px;
+    margin: auto;
+}
 /* Footer Styling starts*/ 
 
 .footer{
@@ -226,7 +201,9 @@ letter-spacing: 2px;
         width: 100%;
         height: 5.0em;
       }
-      
+      .orgName{
+          color: #ffffff;
+      }
       
       .nav-toggle-label {
         position: absolute;
@@ -248,6 +225,7 @@ letter-spacing: 2px;
         background-size: 42px;
         position: relative;
         transition: background 300ms ease-in-out 500ms;
+        margin-left: 0.7em;
       }
       
       nav {
@@ -256,7 +234,7 @@ letter-spacing: 2px;
         text-align: center;
         top: 100%;
         left: 0;
-        background: rgba(0, 0, 0, 0.75);
+        background: rgba(0, 0, 0, 0.95);
         width: 100%;
         transform: scale(1, 0);
         transform-origin: top;
@@ -265,16 +243,18 @@ letter-spacing: 2px;
         -moz-transition: transform 600ms ease-in-out;
         -ms-transition: transform 600ms ease-in-out;
         -o-transition: transform 600ms ease-in-out;
+
+
 }
       
       nav ul {
-          display: block;
+        display: block;
         margin: auto;
-        padding: 5px
-        ;
+        padding: 5px;
         list-style: none;
         margin-top: 10px;
-      }
+
+}
       
       nav li {
           
@@ -283,8 +263,8 @@ letter-spacing: 2px;
         padding-top: 5px;
       }
       
-      nav a {
-        color: white;
+      nav li a {
+        color: #f1f0f0;
         text-decoration: none;
         font-size: 1.2em;
         text-transform: uppercase;

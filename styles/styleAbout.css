@@ -1,264 +1,173 @@
 *{
-    color: black;
+    color: #000000;
+    
 }
 
-/* linear background link color*/ 
-header a, footer a{
-    color: black;
-}
-.active:hover{
-    color: white;
-}
-/* Linear background links color nds */
-body{
-     background: linear-gradient(to bottom right,yellow,white, white, rgb(240, 176, 58));*/
-}
-.mainmaxwidth{
+
+.maxwidth{
     margin:auto;
     max-width: 1080px;
-    margin: auto;
+    margin: 5em auto;
     text-transform: uppercase;
-    letter-spacing: 1px;
-
+  
 }
-.container1{
-    margin: 6em 20px;
+.masterContainer{
+    margin:auto;
+    width: 100%;
+}
+.topContainer{
+  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.topContainer, .left,.right{
+    height: 10em;
+}
+.left{
     display: block;
-
+    width: 60%;
 }
-.container1 h1{
-    padding: 6px;
-    border-bottom: 1px solid rgba(128, 128, 128,0.4);
-
+.right{
+    width: 40%;
 }
-.container1 h1:last-child{
-    border-bottom: 0;
-    border-top: 1px solid rgba(128, 128, 128,0.4);
- 
- }
-.floatLeft{
-    float: left;
-    }
+.floatRight, .floatRight, .Name{
+    width: 100%;
+}
 .floatRight{
-float: right;
+    text-align: right;
 }
-.logomain{
+.Name{
     margin: 0.5em auto;
-    width: 80%;
+    font-size: 2.9em;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
-
-.efforts{
-    margin: auto;
-    margin-top: 6em;   
-   
-    
+#logoo{
+    width: 15em;
 }
-.efforts h1{
-    font-size: 1.7em;
-    max-width: fit-content;
-    padding: 0.5em;
-    border-bottom: 1px solid white; 
+.estd{
+    text-align: right;
+}
+.secondContainer{
+    margin: 3em auto;
+    padding: 1em;
+}
+h1,h2,h3{
+    text-align: center;  
+}
+h1{
+    margin-top: 3em;
+    font-size: 2em;
     letter-spacing: 2px;
 }
-
-.division{
+h2{
     
-    display: inline-block;
-    margin:auto;
-    margin-top: 3em;
-    
+    margin-top: 1.5em;
+    font-size: 1.5em;
 }
-.flex{
-    width: 100%;
-    padding: 5px;
-
-    margin-top: 2em;
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    overflow: hidden;
-    max-height: max-content;
-   
-}
-.numbers{
+h3{ 
+    margin-top: 1em;
+    color: black;
     font-size: 1em;
-    font-weight: bold;
-
 }
-
-.border{
-    display: block;
-    padding: 10px;
-    text-align: center;
-    background: rgba(128, 128, 128, 0.2);
-    border-radius: 10px;
-    height: 100%;
-    margin: auto 5px;
-  
-
+hr{
+    width: 50%;
+    height: 2px;
+    color: rgb(0, 0, 0);
 }
-.border h2{
-text-align: center;
-font-size: 1em;
-
+p{
+    margin-top: 1.5em;
+    text-align: justify;
 }
-
-.border p{
-    height: 80%;
-    font-size: 0.8em;
-    margin: 1em auto;
-    }
-.counter{
-    padding: 5px 5px 5px 0;
-    width: 33.3%;
-    height: 100%;
+.ourContributionBox{
+    margin-top: 1em;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: center;
+    background: grey;
+    height: 12em;
+    
+}
+.heading{
+    border-right: 1px solid black;
+    padding: 0.5em;
+    padding-right: 1em;
+    width: 25%;
+    margin: 0;
+}
+.stats{
+    color: white;
+ 
+    width: 13%;
+    height: 80%;
+    padding: 0.5em;
+}
+.heading h2, .heading h3{
+    color: white;
+    text-align: right;
+}
+.stats img{
+   
+    display: block;
+    margin:  auto;
     align-self: center;
-   
-   
+    height: 3.5em;
 }
-.u-one, .helpstillneeded{
-    text-align: justify;
-    border: 1px solid rgba(255, 255, 255,0.5);
-    height:30em;
-    width: 32%;
-    padding-bottom: 2em;
-    background: #fafafa;
-   
-
-}
-.counterhelp, .counterResIndex{
-    padding: 5px;
-    border: 1px solid rgba(255, 255, 255,0.5);
-    background: #fafafa;
-    height: 100%;
-    width:100%;
-    overflow: hidden;
-    font-size: 1.02em;
-    align-items: stretch;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-   
-}
-.counterhelp:hover,.counterResIndex:hover, .u-one:hover, .helpstillneeded:hover {
-    transform: scale(1.02, 1.02);
-    -webkit-transform: scale(1.02, 1.02);
-    -moz-transform: scale(1.02, 1.02);
-    -ms-transform: scale(1.02, 1.02);
-    -o-transform: scale(1.02, 1.02);
-    transition: transform 500ms;
-    -webkit-transition: transform 500ms;
-    -moz-transition: transform 500ms;
-    -ms-transition: transform 500ms;
-    -o-transition: transform 500ms;
-    -webkit-transform: scale(1.03, 1.03);
-    background:  rgba(131, 177, 40,0.8);
-    color: white !important;
-}
-.counterhelp:hover ,.counterResIndex:hover, .u-one:hover, .helpstillneeded:hover {
+.stats p{
+    margin-top: 0;
     color: white;
-}
-.counterResIndex{
-    margin-left: 0.5em;
-   
-}
-.u-one:hover p, .counterhelp:hover *, .counterResIndex:hover *, .helpstillneeded:hover *{
-    color: white;
-}
-
-.counterMargin{
-   display: flex;
-   justify-content: space-between;
-    width: 50%;
-
-}
- h2{
     text-align: center;
-    font-size: 1.2em;
-    margin: 1em auto ;
-    }
-.counterhelp h3, .counterResIndex h3{
-
-    font-size: 0.8em;
-   width: 100%;
-   margin: -0.5em auto 2.5em auto;
+    font-size: 0.6em;
+}
+.stats h4{
+    margin-top: 0;
+    color: white;
     text-align: center;
 }
-.u-one a{
+.links{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: darkgreen;
-    margin: 0.5em auto;
-    height: 30px;
-    width: 80%;
-    text-align: center;
-    font-size: 0.8em;
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    color: rgb(218, 216, 216);
-    
-
+    height:3em;
+    margin-top: 1em;
 }
-.u-one a:last-child{
-    background: rgb(131, 177, 40);
-
+.links a{
+    color: white;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    height: 2.5em;
+    background: rgb(2, 75, 2);
+    letter-spacing: 1px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
 }
-.u-one a:hover{
-background: rgb(6, 163, 6);
-color:white;
+.links .request{
+    background-color: rgb(8, 156, 8);
 }
-.mainmaxwidth hr{
-    width: 60%;
-    margin: 2em auto;
-}
-.center{
-    margin: auto;
-    align-self: center;
-    justify-self: center;
-}
-center h1{
-    font-size: 2em;
+.links a:hover{
+    border:2px solid black;
+    background-color: limegreen;
+    color: black;
 }
 .volunteers p{
-    margin: auto;
+   
+   padding: 0.5em;
     margin-top: 2em;
     max-width: 90%;
     text-align: justify;
-    line-height: 25px;
+    line-height: 22px;
     margin-bottom: 2em;
 }
-
-.volunteers a{
-    color: rgb(218, 216, 216);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: darkgreen;
-    margin: 0.5em auto;
-    height: 30px;
-    width: 50%;
-    text-align: center;
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-}
-.volunteers a:hover{
-    background: rgb(6, 163, 6);
-    color:white;
-}
+    
 .f1, .f2, .f3,.f4, .f5, .f6{
     display: flex;
     justify-content: space-between;
@@ -277,54 +186,47 @@ center h1{
 }
 .words{
     text-align: justify;
-    margin: auto 1em;
+    margin: 1em 1em;
 }
-
-footer hr{
-    max-width: 1080px;
-    width: 100%;
+.f1 h2, .f3 h2, .f5 h2{
+    text-align: left;
 }
-
-
-
-
-
-
-
+.f2 h2, .f4 h2, .f6 h2{
+    text-align: right;
+}
 
 
 
  /* Mobile */
+
 @media screen and (max-width:720px){
-*{
+body{
     font-size: 14px;
 }
-.counterhelp h2, .counterResIndex h2{
-    font-size: 0.9em;
-}
-.counterhelp h3, .counterResIndex h3{
- font-size: 0.7em;
-}
-.flex{
-    flex-wrap: wrap;
-    align-items: stretch;
 
-}
-.counterMargin, .center{
-    align-self: center;
-}
-.u-one, .helpstillneeded, .counter{
-    width: 48%;
-    margin: auto;
-    margin-top: 2em;
-}
-.u-one, .helpstillneeded{
-    height: 26em;
-}
-.counterhelp, .counterResIndex{
-height: 25em;
-}
 .words p{
     font-size: 0.8em;
 }
+.Name{
+    font-size: 2em;
+
 }
+.heading h2, .heading h3{
+    font-size: 0.87em;
+}
+
+}
+
+@media screen and (max-width:400px){
+    *{
+        margin: auto;
+        max-width: 1000vw;
+    }
+    body{
+        margin:auto;
+        width: 300%;
+    }
+    
+    
+    }
+    
