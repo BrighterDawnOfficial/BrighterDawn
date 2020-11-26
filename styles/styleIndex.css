@@ -78,16 +78,20 @@ body{
 }
 .secondContainer{
     margin:auto 0.2em;
-    max-width: 45em; 
+    max-width: 45em;
     padding: 1.4em 1em;
-    background: rgb(200, 200, 200);;
-    /* rgba(199, 194, 194, 0.95); */ 
-    display: block;
+    background: rgb(200, 200, 200);
+    /*rgba(199,194,194,0.95):;
+    */display: block;
     float:left;
     z-index: +1;
     border: 2px solid white;
     color: rgb(24, 20, 20);
-  
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
 }
 
 .stats{
@@ -193,9 +197,9 @@ h1{
     margin: 0.5em;
     align-self: center;
    text-align: justify;
-   text-indent: 1em;
+   
    letter-spacing: 2px;
-   line-height: 20px;
+   line-height: 1.5em;
    word-spacing: 5px;
 }
 .thirdContainer p a{
@@ -203,6 +207,7 @@ h1{
 text-decoration: underline;
 color: black;
 font-size: 1em;
+
 
 }
 .thirdContainer p a:hover{
@@ -219,13 +224,14 @@ font-size: 1em;
     margin-bottom: 1em;
 }
 .first, .second, .third, .fourth, .fifth, .sixth{
-    word-spacing: 3px;
+    word-spacing: 2px;
+    line-height: 1.6em;
     overflow: hidden;
     width: 25%;
     display: block;
     padding: 0.8em;
     text-align: justify;
-    margin: 1em 2em;
+    margin: 1.5em 1.5em;
     background-color: rgb(247, 247, 247);
     border-radius: 10px;
     max-width: max-content;
@@ -308,6 +314,7 @@ h2{
     width: 20%;
     margin-top: 1em;
 
+    box-shadow: -1px 1px 5px 1px rgb(58, 58, 58);
 }
 
 .eventDetails{
@@ -328,7 +335,14 @@ margin-left: 0;
     margin-bottom: -0.6em;
     font-size: 2em;
 }
-
+.subHeading h3{
+    color: rgb(63, 63, 63);
+    font-style: italic;
+    font-weight: normal;
+}
+.eventLink{
+font-variant: small-caps;
+}
 .recentBlogs{
     line-height: 1.5em;
     display: flex;
@@ -345,9 +359,9 @@ margin-left: 0;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-width: 28%;
+width: 30%;
 margin: 2em  1.5em;
-
+line-height: 1.6em;
 
 }
 .commas{
@@ -484,8 +498,10 @@ input{
         font-size: 0.8em;
     }
     .first, .second, .third, .fourth, .fifth, .sixth{
-        margin: 1em 1.5em;
+        margin: 1.3em 1.7em;
         width: 35%;
+        line-height: 1.6em;
+        padding-top: 1em;
     }
     .thirdContainer{
         width: 100%;
@@ -519,6 +535,10 @@ input{
         margin: 0em 1em 1em 2em ;
         width: 92%;
         text-align: justify;
+        
+    }
+    .eventInfo{
+        line-height: 1.8em;
     }
     .event1, .event2, .event3{
         margin-top: 1em;
@@ -526,8 +546,9 @@ input{
     .eventDate{
         margin-top: 0;
         font-size: smaller;
-      
     }
+
+
     .readMore{
     float: left;
     margin-top: 10px;

@@ -26,8 +26,9 @@
 
 
 .active{
-    color: white;
+    color: #000000;
    text-transform: uppercase;
+   font-weight: bold;
 }
 .nav-toggle-label {
     display: none;
@@ -95,12 +96,12 @@ li ,a {
     color: rgb(221, 221, 221);
 }
 header a, footer a{
-    color: #000000;
+    color: #ffffff;
 }
 
 header a:hover{
     
-    color:black;
+    color:rgb(177, 177, 177);
     
 }
 a:active{
@@ -193,7 +194,7 @@ letter-spacing: 2px;
 
  }
     header {
-        background: rgba(0, 0, 0, 0.8);
+        background: rgba(0, 0, 0, 0.95);
         text-align: center;
         position: fixed;
         top:0;
@@ -225,7 +226,7 @@ letter-spacing: 2px;
         background-size: 42px;
         position: relative;
         transition: background 300ms ease-in-out 500ms;
-        margin-left: 0.7em;
+        margin-left: 0.6em;
       }
       
       nav {
@@ -255,6 +256,14 @@ letter-spacing: 2px;
         margin-top: 10px;
 
 }
+.active{
+    color: rgb(145, 145, 145);
+    transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+}
       
       nav li {
           
@@ -264,6 +273,7 @@ letter-spacing: 2px;
       }
       
       nav li a {
+          letter-spacing: 2px;
         color: #f1f0f0;
         text-decoration: none;
         font-size: 1.2em;

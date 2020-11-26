@@ -42,7 +42,7 @@
     font-size: 2.9em;
     text-align: center;
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 #logoo{
     width: 15em;
@@ -78,8 +78,12 @@ hr{
     color: rgb(0, 0, 0);
 }
 p{
+    margin: auto;
+    width: 95%;
     margin-top: 1.5em;
     text-align: justify;
+    line-height: 1.6em;
+    margin-bottom: 1.5em;
 }
 .ourContributionBox{
     margin-top: 1em;
@@ -164,7 +168,7 @@ p{
     margin-top: 2em;
     max-width: 90%;
     text-align: justify;
-    line-height: 22px;
+    line-height: 1.6em;
     margin-bottom: 2em;
 }
     
@@ -187,6 +191,7 @@ p{
 .words{
     text-align: justify;
     margin: 1em 1em;
+    line-height: 2.5em;
 }
 .f1 h2, .f3 h2, .f5 h2{
     text-align: left;
@@ -208,25 +213,41 @@ body{
     font-size: 0.8em;
 }
 .Name{
-    font-size: 2em;
+    font-size: 1.8em;
 
 }
 .heading h2, .heading h3{
     font-size: 0.87em;
 }
+.f1, .f2, .f3, .f3, .f4, .f5, .f6{
+    flex-wrap: wrap;
+}
+.founders{
+    width: 50%;
+}
+.words h2{
+    text-align: center;
+    margin-top: -0em;
+}
+.f2, .f4, .f6{
+flex-direction: column-reverse;
+}
 
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:401px){
     *{
+        font-size: 15px;
         margin: auto;
         max-width: 1000vw;
     }
     body{
         margin:auto;
-        width: 300%;
+        width: 200%;
     }
-    
+    .words p{
+        width: 75%;
+    }
     
     }
     
