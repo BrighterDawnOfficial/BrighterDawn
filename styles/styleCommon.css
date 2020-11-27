@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300;1,700&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 /* This is the header and footer styling common to all pages.. */
 
 
 
 *{
     box-sizing: border-box;
-    font-family: Roboto, Tahoma, sans-serif;
+    /* font-family: Montserrat, Tahoma, sans-serif; */
+    font-family: 'Nunito', sans-serif;
     font-size:18px;
     padding:0;
     color: black;
@@ -198,7 +199,7 @@ letter-spacing: 2px;
         text-align: center;
         position: fixed;
         top:0;
-        z-index: 1;
+        z-index: 200;
         width: 100%;
         height: 5.0em;
       }
@@ -230,13 +231,19 @@ letter-spacing: 2px;
       }
       
       nav {
+         z-index: 300;
+          display: flex;
+          align-items: center;
+          justify-content: center;
           
         position: absolute;
         text-align: center;
         top: 100%;
         left: 0;
-        background: rgba(0, 0, 0, 0.95);
+        /* background: rgba(0, 0, 0, 0.99);*/ 
+        background: linear-gradient(to bottom, #224e4d 10%, #083023 90%);
         width: 100%;
+        height: 100vh;
         transform: scale(1, 0);
         transform-origin: top;
         transition: transform 600ms ease-in-out;
@@ -249,11 +256,12 @@ letter-spacing: 2px;
 }
       
       nav ul {
+          
         display: block;
         margin: auto;
         padding: 5px;
         list-style: none;
-        margin-top: 10px;
+        z-index: 200;
 
 }
 .active{
@@ -267,7 +275,7 @@ letter-spacing: 2px;
       
       nav li {
           
-        margin-bottom: 2em;
+        margin-bottom: 6vh;
         margin-left: 1em;
         padding-top: 5px;
       }
