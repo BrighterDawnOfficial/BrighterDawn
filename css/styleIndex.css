@@ -1,0 +1,436 @@
+*{
+    color: black;
+}
+body{
+  
+    margin:0;
+    color:black;
+
+}
+ .white{
+color: white;
+}
+
+.top-backgound-container{
+  
+    background-image: url("../data/Background/greysmiling2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.maxwidth{
+    max-width: 1080px;
+    margin:auto;
+
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+.relative{
+    position: relative;
+    max-width: 1000px;
+}
+.help{
+    position: absolute;
+    right: 3em;
+    margin-top: 12vh;
+    width: 15.6em;
+
+}
+
+.help *{
+    color: white;
+}
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.help--logo h1{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+}
+
+#help-logo{
+    width: 15.6em;
+  
+}
+.help h2{
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-top: 1.5em;
+    text-align: center;
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    text-align: center;
+    padding: 1em 2em;
+    height: 55px;
+    font-size: 0.8em;
+}
+.link:hover{
+    background-color: #000;
+    color: #ffffff;
+    font-weight: bold;
+  
+}
+.helplink{
+    display: inline-flex;
+    justify-content: center;
+    border: 2px solid white;
+    width: 100%;
+}
+.helplink:hover{
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+}
+.arow-below{
+    margin:auto;
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    height: 50px;
+    opacity: 50%;
+}
+
+.margin-top{
+    margin-top: 5em;
+}
+.padding-top{
+padding-top: 1em;
+padding-bottom: 1em;
+}
+.center{
+    text-align: center;
+}
+.covid, .edu{
+    border-right: 1px solid grey;
+    padding: 1em;
+}
+.align-left{
+    
+    text-align: left;
+}
+.align-right{
+    text-align: right;
+}
+.bold{
+    font-weight: bold;
+}
+.three-columns{
+    margin: 3em auto;
+}
+.three-columns *{
+    margin:0;
+}
+span{
+    display: block;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+.width32{
+    width: 31%;
+}
+.width28{
+    width: 25%;
+    margin: 10px 2%;
+}
+.linkwhite{
+    letter-spacing: 1px;
+    border: 2px solid white;
+    width: 50%;
+    color: white;
+}
+.linkwhite:hover{
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+}
+.width100{
+    width: 100%;
+}
+
+.background{
+    background-image: url("../data/Background/blackbg.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+.background .maxwidth{
+    height: 100%;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-wrap *, .upcoming-events *{
+    color: #ffffff;
+}
+.action-report{
+    
+    height:600px;
+}
+.action-report .maxwidth{
+    border: 2px solid slateblue;
+    height: 100%;
+    text-align: center;
+    padding-top: 10%;
+}
+.upcoming-events .link{
+    border: 2px solid white;
+    margin: 0.5em auto;
+    width: 100%;
+}
+.upcoming-events .link:hover{
+    background-color: gray;
+    color:black
+}
+.event{
+    margin: 3em auto;
+}
+.event-links{
+    width: 20%;
+}
+.eventDetails{
+    width: 60%;
+}
+
+.eventDate{
+    height: 100%;
+border:2px solid white;
+width:12%;
+text-align: center;
+}
+.date{
+    font-size: 2.2em;
+    margin-bottom: -1em;
+    text-align: center;
+}
+.eventHeading h2{
+    font-size: 1.3em;
+}
+.italic{
+    font-style: italic;
+    font-size: 1.1em;
+}
+.eventLink a, .readMore{
+    text-decoration: underline;
+    font-size: 1em;
+    font-style: italic;
+}
+.commas{
+    font-size: 2.5em;
+    margin: 0 auto;
+  
+   height: 30px;
+}
+.blogDetails{
+    margin: -1em 0 1em 1em ;
+}
+.blogHeading{
+    margin-bottom: 1em;
+}
+
+
+.newsletter p{
+    text-align: center;
+    line-height: 1.5em;
+}
+form{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+input{
+    margin: 1em auto;
+    width: 90%;
+    padding: 0.7em;
+    border: 2px solid black;
+}
+.name{
+    font-weight: bold;
+    width: 60%;
+}
+.phNumber{
+   
+    font-weight: bold;
+    width: 40%;
+}
+
+.phNumber input{
+    float: right;
+    width: 100%;
+    
+}
+.email{
+    font-weight: bold;
+    margin-top: 1em;
+    width: 30%;
+}
+.submitButton{
+    width: 70%;
+  
+}
+input:focus{
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+.submitButton input{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #000;
+    width: 100%;
+    margin-top: 3.4em;
+    padding: 0.7em;
+    
+}
+.submitButton input:hover, .submitButton input:focus {
+    background-color: black;
+    color: white;
+    transform:scale(1.02, 1.02) ;
+    -webkit-transform:scale(1.02, 1.02) ;
+    -moz-transform:scale(1.02, 1.02) ;
+    -ms-transform:scale(1.02, 1.02) ;
+    -o-transform:scale(1.02, 1.02) ;
+    transition: transform 300ms ease-in-out;
+    -webkit-transition: transform 300ms ease-in-out;
+    -moz-transition: transform 300ms ease-in-out;
+    -ms-transition: transform 300ms ease-in-out;
+    -o-transition: transform 300ms ease-in-out;
+}
+
+
+
+
+/* Mobile Styling */
+@media screen and (max-width:720px){
+    *{
+        font-size: 13px;
+    }
+
+    .donation{
+        font-size: small;    
+      }
+    .donatenow{
+        margin-top: 11em;
+       font-size: small;
+        top: 5.5em;
+        z-index: 2;
+        max-width: fit-content;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .helpContainer{
+        padding-right: 1em;
+        margin-top: 8em ;
+    }
+    .secmaxwidth{
+      clear: right;
+     
+    }
+    .secondContainer{
+     
+        margin-top: 5.2em;
+    }
+    .covid h3, .edu h3, .employee h3{
+      margin-top: -2em;
+        font-size: 0.8em;
+    }
+    .first, .second, .third, .fourth, .fifth, .sixth{
+        margin: 1.3em 1.7em;
+        width: 35%;
+        line-height: 1.6em;
+        padding-top: 1em;
+    }
+    .thirdContainer{
+        width: 100%;
+    }
+    .flexthird{
+        flex-wrap: wrap;
+    }
+    .Fimages{
+        width: 100%;
+
+    }
+    .founders{
+        width: 30%;
+    }
+    .flexthird p{
+        margin-top: 2em;
+        width: 90%;
+    }
+    .recentBlogs{
+        flex-wrap: wrap;
+       width: 95%;
+    }
+    .blog1, .blog2, .blog3{
+        width: 100%;
+    }
+    .commas{
+        width: 100%;
+        margin-left: -0.2em;
+    }
+    .blogDetails{
+        margin: 0em 1em 1em 2em ;
+        width: 92%;
+        text-align: justify;
+        
+    }
+    .eventInfo{
+        line-height: 1.8em;
+    }
+    .event1, .event2, .event3{
+        margin-top: 1em;
+    }
+    .eventDate{
+        margin-top: 0;
+        font-size: smaller;
+    }
+
+
+    .readMore{
+    float: left;
+    margin-top: 10px;
+    
+    }
+    .name, .phNumber, .email{
+        margin: auto;
+        margin-top: 1em;
+        width: 100%;
+    }
+    .phNumber input{
+        float: left;
+        width: 90%;
+    }
+ 
+}
+@media screen and (max-width:400px){
+*{
+    margin: auto;
+    max-width: 1000vw;
+}
+body{
+    margin:auto;
+    width: 300%;
+}
+
+
+}
+
+*/
