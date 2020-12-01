@@ -41,7 +41,7 @@ color: white;
 .help{
     position: absolute;
     left: 1em;
-    top: -10em;
+    top: 0em;
     margin-top: 12vh;
     width: 15.6em;
    
@@ -376,9 +376,12 @@ input:focus{
 
     .width28{
        
-        width: 40%;
-        margin: 1em 4.5% 0 4.5%;
-        padding: 2em;
+        width: 44%;
+        margin: 0em;
+        padding:  2em;
+    }
+    .assemble{
+        margin-top: -3em;
     }
     .width28 h2{
         margin-top: 1em;

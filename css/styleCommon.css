@@ -306,8 +306,18 @@ footer .flex--part, footer .flex--part0{
     padding:1em;
 }
 .footer--logo{
-    height: 100px;
+    height: 90px;
 }
+.flexstart{
+    display: flex;
+    justify-content: start;
+
+}
+
+.address, .footer--logo{
+   display: inline-block;
+}
+
 }
 /*Tab style */
 @media screen and (min-width:720px){
