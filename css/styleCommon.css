@@ -134,7 +134,7 @@ a:active{
     justify-content: space-between;
 }
 .flexstart{
-    justify-content: flex-start;
+    justify-content: left;
 }
 .icon{
     width: 30px;
@@ -150,6 +150,9 @@ footer .flex--part{
 }
 footer{
     padding-top: 10px;
+}
+.text-align-justify{
+    line-height: 20px;
 }
 
 
@@ -294,7 +297,17 @@ footer{
           -ms-transition: background 300ms ease-in-out 500ms;
           -o-transition: background 300ms ease-in-out 500ms;
 }
-
+footer{
+    flex-wrap: wrap;
+}
+footer .flex--part, footer .flex--part0{
+    width: 100%;
+    margin: 1em auto;
+    padding:1em;
+}
+.footer--logo{
+    height: 100px;
+}
 }
 /*Tab style */
 @media screen and (min-width:720px){
@@ -306,6 +319,9 @@ footer{
     #logo{
         height: 40px;
     }
+    
+
+
 }
 @media screen and (min-width:780px){
     li ,a{
